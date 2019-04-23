@@ -60,6 +60,8 @@ public class AddMovie {
     driver.findElement(By.id("id_moviedescription")).sendKeys("Disney");
     Thread.sleep(3000);
     driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Poster'])[1]/following::input[2]")).click();
+    Thread.sleep(1000);
+    driver.findElement(By.linkText("All Movies")).click();
     Thread.sleep(3000);
   }
 

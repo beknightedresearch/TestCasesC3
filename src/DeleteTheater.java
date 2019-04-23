@@ -45,7 +45,7 @@ public class DeleteTheater {
     Thread.sleep(2000);
     driver.findElement(By.linkText("Delete Theater")).click();
     Thread.sleep(2000);
-    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Log Out'])[1]/following::input[2]")).click();
+    driver.findElement(By.xpath("/html/body/div[2]/div/form/input[2]")).click();
     Thread.sleep(2000);
   }
 

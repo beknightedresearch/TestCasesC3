@@ -56,6 +56,8 @@ public class AddShowing {
     Thread.sleep(2000);
     driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Pricing'])[1]/following::input[1]")).click();
     Thread.sleep(2000);
+    driver.findElement(By.linkText("My Showings")).click();
+    Thread.sleep(2000);
   }
 
   @After

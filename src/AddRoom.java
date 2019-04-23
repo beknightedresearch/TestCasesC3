@@ -55,6 +55,8 @@ public class AddRoom {
     Thread.sleep(2000);
     driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Number of Seats per Row'])[1]/following::input[2]")).click();
     Thread.sleep(2000);
+    driver.findElement(By.linkText("More Settings")).click();
+    Thread.sleep(3000);
   }
 
   @After
